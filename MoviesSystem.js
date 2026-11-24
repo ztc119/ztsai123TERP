@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
    res.send(`My Deployment`);
 });
 
-app.get("/insertMovies", async (req, res) => {
+app.get("https://ztsai123terp.onrender.com/insertMovies", async (req, res) => {
     try {
       await client.connect();
       const collection = client.db(databaseName).collection(collectionName);
@@ -46,7 +46,7 @@ app.get("/insertMovies", async (req, res) => {
    }
 });
 
-app.get("/listMovies", async (req, res) => {
+app.get("https://ztsai123terp.onrender.com/listMovies", async (req, res) => {
    
     try {
       await client.connect();
@@ -67,7 +67,7 @@ app.get("/listMovies", async (req, res) => {
    }
 });
 
-app.get("/clearCollection", async (req, res) => {
+app.get("https://ztsai123terp.onrender.com/clearCollection", async (req, res) => {
     try {
       await client.connect();
       
@@ -81,7 +81,7 @@ app.get("/clearCollection", async (req, res) => {
    }
 });
 
-app.get("/getSummary", (req, res) => {
+app.get("https://ztsai123terp.onrender.com/getSummary", (req, res) => {
    const variables = { year: 2025 };
    res.render("summary", variables);
 });
