@@ -20,7 +20,7 @@ const collectionName = "moviesCollection";
 const uri = process.env.MONGO_CONNECTION_STRING;
 const client = new MongoClient(uri, { serverApi: ServerApiVersion.v1 });
 
-app.get("https://ztsai123terp.onrender.com", async (req, res) => {
+app.get("/", async (req, res) => {
    res.send(`My Deployment`);
 });
 
