@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 7</title>
+    </head>
+    <body>
+        <div class="banner">
+            <p>Name: Zoey Tsai</p>
+            <p>GitHub Location: https://github.com/ztc119/ztsai123TERP </p>
+            <p>Render Location: <a href="https://ztsai123terp.onrender.com/">https://ztsai123terp.onrender.com/</a></p>
+            <p>Clearing Database Movies: https://ztsai123terp.onrender.com/clearCollection</p>
+            <p>Inserting Movies: https://ztsai123terp.onrender.com/insertMovies</p>
+            <p>List Movies: https://ztsai123terp.onrender.com/listMovies</p>
+        </div>
+    </body>
+</html> 
